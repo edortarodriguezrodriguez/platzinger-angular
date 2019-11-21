@@ -8,7 +8,9 @@ import {HomeComponent} from './components/home/home.component';
 import {ConversationComponent} from './components/conversation/conversation.component';
 import {ProfileComponent} from './components/profile/profile.component';
 import {RouterModule, Routes} from "@angular/router";
-import { MenuComponent } from './components/menu/menu.component';
+import {MenuComponent} from './components/menu/menu.component';
+import {SearchPipe} from './pipes/search.pipe';
+import {FormsModule} from "@angular/forms";
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -26,11 +28,13 @@ const appRoutes: Routes = [
     HomeComponent,
     ConversationComponent,
     ProfileComponent,
-    MenuComponent
+    MenuComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
