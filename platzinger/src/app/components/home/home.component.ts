@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {User} from "../../interfaces/user";
+import {UserService} from "../../services/user.service";
 
 @Component({
   selector: 'app-home',
@@ -8,60 +9,10 @@ import {User} from "../../interfaces/user";
 })
 export class HomeComponent implements OnInit {
 
-  friends: User [];
+  friends: User[];
 
-  constructor() {
-    let myUser: User = {
-      nick: 'paco',
-      subnick: 'hola',
-      age: 30,
-      email: 'aa@aa.com',
-      friend: false,
-      uid: 5
-    };
-
-    let myUser1: User = {
-      nick: 'maria',
-      subnick: 'hola',
-      age: 30,
-      email: 'aa@aa.com',
-      friend: true,
-      uid: 1
-    };
-    let myUser2: User = {
-      nick: 'nicki',
-      subnick: 'hola',
-      age: 30,
-      email: 'aa@aa.com',
-      friend: true,
-      uid: 2
-    };
-    let myUser3: User = {
-      nick: 'patxi',
-      subnick: 'hola',
-      age: 30,
-      email: 'aa@aa.com',
-      friend: true,
-      uid: 3
-    };
-    let myUser4: User = {
-      nick: 'pacotabaco',
-      subnick: 'hola',
-      age: 30,
-      email: 'aa@aa.com',
-      friend: false,
-      uid: 4
-    };
-
-
-    this.friends = [myUser, myUser1, myUser2, myUser3, myUser4]
-
-
-    console.log(myUser);
-
-    let users: User  []
-      = [myUser];
-
+  constructor(private userService: UserService) {
+    this.friends = this.userService.getFriends();
   }
 
   ngOnInit() {
