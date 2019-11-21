@@ -8,6 +8,7 @@ import {HomeComponent} from './components/home/home.component';
 import {ConversationComponent} from './components/conversation/conversation.component';
 import {ProfileComponent} from './components/profile/profile.component';
 import {RouterModule, Routes} from "@angular/router";
+import { MenuComponent } from './components/menu/menu.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     LoginComponent,
     HomeComponent,
     ConversationComponent,
-    ProfileComponent
+    ProfileComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
