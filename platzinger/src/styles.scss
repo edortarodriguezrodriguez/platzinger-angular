@@ -10,7 +10,19 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1);
   text-align: center;
   padding: 5%;
-  border-radius:10px;
-  border:1px solid white;
+  border-radius: 10px;
+  border: 1px solid white;
   display: inline-block;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.marto15 {
+  margin-top: 15px;
+}
+
+.marbo15 {
+  margin-bottom: 15px;
 }
