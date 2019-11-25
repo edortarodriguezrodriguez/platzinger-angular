@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1e16f6-2f1f-4ec2-9ee0-1f336b903125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzinger/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="537">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -31,35 +48,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/login/login.component.scss">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/login/login.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +74,7 @@
       <find>msngb</find>
       <find>msn</find>
       <find>avatarFrameOffline</find>
+      <find>whiteContainerPadded</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,10 +99,11 @@
         <option value="$PROJECT_DIR$/platzinger/src/app/components/login/login.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.scss" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" />
         <option value="$PROJECT_DIR$/platzinger/src/styles.scss" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -162,6 +166,13 @@
               <item name="platzinger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +224,7 @@
       <updated>1574322303474</updated>
       <workItem from="1574322305094" duration="7858000" />
       <workItem from="1574342932551" duration="4755000" />
-      <workItem from="1574673294535" duration="11685000" />
+      <workItem from="1574673294535" duration="16454000" />
     </task>
     <task id="LOCAL-00001" summary="Creating routing between components">
       <created>1574326830552</created>
@@ -306,11 +317,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574688669815</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="home view styles.">
+      <created>1574690466834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574690466834</updated>
+    </task>
+    <task id="LOCAL-00015" summary="set styles in home and contacts list.">
+      <created>1574695703908</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574695703908</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24298000" />
+    <option name="totallyTimeSpent" value="29067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="114" width="1936" height="1056" extended-state="6" />
@@ -394,7 +419,9 @@
     <MESSAGE value="Styles in login view." />
     <MESSAGE value="finishing the login view styles." />
     <MESSAGE value="navbar styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar styles" />
+    <MESSAGE value="home view styles." />
+    <MESSAGE value="set styles in home and contacts list." />
+    <option name="LAST_COMMIT_MESSAGE" value="set styles in home and contacts list." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/platzinger/src/index.html">
@@ -410,13 +437,6 @@
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -506,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -522,16 +535,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/assets/img/logo_live_online.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/assets/img/msnbg.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -557,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -585,10 +581,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,17 +605,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss">
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="537">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
         </state>
       </provider>
     </entry>
