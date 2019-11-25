@@ -2,10 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1e16f6-2f1f-4ec2-9ee0-1f336b903125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/generic_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/airplane.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/angel_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/angry_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/asl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/bah.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/bat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/beer_mug.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/brb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/broken_heart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/cake.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/camera.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/car.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/cat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/cellphone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/cig.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/clock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/coffee.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/computer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/confused_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/cry_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/cubiertos.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/devil_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/dog.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/dont_know.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/dont_tell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/drowsy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/envelope.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/film.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/girl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/girl_hug.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/guy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/guy_hug.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/handcuffs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/heart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/high5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/island.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/lightbulb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/lighting.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/martini.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/messenger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/money.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/moon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/msnlogin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/note.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/omg_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/party.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/phone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/pizza.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/plate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/present.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/red_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/regular_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/rolling_eyes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/rose.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/sad_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/sarcastic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/secrets.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/shades_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/sick.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/snail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/soccer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/star.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/storm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/teeth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/teeth_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/thinking.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/thumbs_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/thumbs_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/tongue_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/turtle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/umbrella.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/what_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/wilted_rose.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/wink_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/xbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/icons/xfingers.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_appear_offline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_away.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_big_clean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_busy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_offline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/logo_live_online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/msnbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/msnbg_tall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/img/zumbido.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/sound/friend_connected.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/sound/new_message.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/sound/online.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzinger/src/assets/sound/zumbido.m4a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzinger/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,46 +121,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.ts">
+        <entry file="file://$PROJECT_DIR$/platzinger/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="272">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.html">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.ts">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="135" column="73" lean-forward="true" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
@@ -67,10 +157,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/pipes/search.pipe.ts">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -78,8 +195,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -90,31 +207,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,16 +225,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/platzinger/src/index.html" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/pipes/search.pipe.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/styles.scss" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.scss" />
+        <option value="$PROJECT_DIR$/platzinger/angular.json" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html" />
       </list>
     </option>
@@ -165,6 +266,36 @@
               <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
               <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fortawesome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fortawesome" type="462c0819:PsiDirectoryNode" />
+              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fortawesome" type="462c0819:PsiDirectoryNode" />
+              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +333,22 @@
               <item name="platzinger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="pipes" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,9 +361,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platzinger/src/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Edorta\WebstormProjects\platzinger-angular\platzinger\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Edorta\WebstormProjects\platzinger-angular\platzinger\src\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -247,7 +400,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574322303474</updated>
       <workItem from="1574322305094" duration="7858000" />
-      <workItem from="1574342932551" duration="4624000" />
+      <workItem from="1574342932551" duration="4755000" />
+      <workItem from="1574673294535" duration="4316000" />
     </task>
     <task id="LOCAL-00001" summary="Creating routing between components">
       <created>1574326830552</created>
@@ -305,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574347382143</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="personalize pipes">
+      <created>1574348411373</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574348411373</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12482000" />
+    <option name="totallyTimeSpent" value="16929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="114" width="1936" height="1056" extended-state="6" />
@@ -318,7 +479,6 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -331,6 +491,7 @@
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,12 +549,10 @@
     <MESSAGE value="Browse with parameters." />
     <MESSAGE value="Services (injecting in components )" />
     <MESSAGE value="pipes (date,number,json)" />
-    <option name="LAST_COMMIT_MESSAGE" value="pipes (date,number,json)" />
+    <MESSAGE value="personalize pipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="personalize pipes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -424,25 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="6" />
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="9" />
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="5" />
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="7" />
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="8" />
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -452,61 +592,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user-service.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user-service.service.ts" />
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/pipes/search.ts" />
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user-service.service.spec.ts">
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="272">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user-service.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="135" column="73" lean-forward="true" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="73" />
+        <state relative-caret-position="3859">
+          <caret line="227" column="73" selection-start-line="227" selection-start-column="73" selection-end-line="227" selection-end-column="73" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/pipes/search.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/pipes/search.pipe.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,37 +626,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="408">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="79" selection-start-column="79" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/assets/img/logo_live_online.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
