@@ -1,21 +1,23 @@
-#icon-status {
-  width: 30px;
-}
-
 #homeContainer {
-  background-image: url('/assets/img/msnbg.jpg');
-  background-size: 100%;
+  background-image: url(/assets/img/msnbg.jpg);
+  background-size: 100% 35%;
   background-repeat: no-repeat;
 }
 
-#whiteBorderGlassBox{
-  border: 2px solid rgba(255,255,255,.75);
+#whiteBorderGlassBox {
+  border: 2px solid rgba(255, 255, 255, .75);
   padding: 8px;
 }
-.homeHeaderContainer{
- background-color:rgba(255,255,255,.50)
+
+.homeHeadContainer {
+  background-color: rgba(255, 255, 255, .50);
 }
 
-#homeAvatarPicture{
-  max-width: 100px;
+.whiteContainerPadded {
+  padding: 15px;
+  background-color: #feffff;
+}
+
+img.icon {
+  width: 30px;
 }
