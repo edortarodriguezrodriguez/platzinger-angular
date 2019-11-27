@@ -13,8 +13,14 @@ export class HomeComponent implements OnInit {
 
   friends: User[];
   query: string;
+  private user: User;
 
   constructor(private userService: UserService, private authenticationService: AuthenticationService, private router: Router) {
+    this.getUsers();
+    this.getUserSession();
+  }
+
+  private getUsers() {
     this.userService.getUsers().valueChanges().subscribe((data: User[]) => {
       this.friends = data;
     }, (error) => {
@@ -32,4 +38,15 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  private getUserSession() {
+    this.authenticationService.getStatus().subscribe((status) => {
+      this.userService.getUserById(status.uid).valueChanges().subscribe(
+        (user: User) => this.user = user,
+        (error) => {
+          console.log(error);
+        })
+    }, (error) => {
+      console.log(error);
+    })
+  }
 }
