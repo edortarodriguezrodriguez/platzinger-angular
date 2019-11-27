@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f1e16f6-2f1f-4ec2-9ee0-1f336b903125" name="Default Changelist" comment="Guards Firebase auth">
+    <list default="true" id="7f1e16f6-2f1f-4ec2-9ee0-1f336b903125" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzinger/src/app/services/authentication.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/services/authentication.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,14 +40,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/authentication.guard.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,6 +123,7 @@
       <find>whiteContainerPadded</find>
       <find>getfri</find>
       <find>escribe un</find>
+      <find>Offline</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,7 +137,6 @@
         <option value="$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/pipes/search.pipe.ts" />
         <option value="$PROJECT_DIR$/platzinger/angular.json" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/login/login.component.scss" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/menu/menu.component.html" />
@@ -106,7 +147,6 @@
         <option value="$PROJECT_DIR$/platzinger/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/environments/environment.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/environments/environment.prod.ts" />
-        <option value="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/login/login.component.html" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/login/login.component.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.ts" />
@@ -115,6 +155,10 @@
         <option value="$PROJECT_DIR$/platzinger/src/app/services/authentication.service.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/components/home/home.component.ts" />
         <option value="$PROJECT_DIR$/platzinger/src/app/services/authentication.guard.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/services/user.service.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.html" />
+        <option value="$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.ts" />
       </list>
     </option>
   </component>
@@ -216,6 +260,15 @@
               <item name="platzinger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platzinger-angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platzinger-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="platzinger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,7 +330,7 @@
       <workItem from="1574322305094" duration="7858000" />
       <workItem from="1574342932551" duration="4755000" />
       <workItem from="1574673294535" duration="16454000" />
-      <workItem from="1574845972593" duration="8416000" />
+      <workItem from="1574845972593" duration="10616000" />
     </task>
     <task id="LOCAL-00001" summary="Creating routing between components">
       <created>1574326830552</created>
@@ -412,11 +465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574857174380</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Guards Firebase auth --&gt; redirect login when logout">
+      <created>1574862037713</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574862037713</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37483000" />
+    <option name="totallyTimeSpent" value="39683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="114" width="1936" height="1056" extended-state="6" />
@@ -432,10 +492,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32394367" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32394367" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -506,7 +566,8 @@
     <MESSAGE value="Add auth firebase" />
     <MESSAGE value="userService to firebase" />
     <MESSAGE value="Guards Firebase auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guards Firebase auth" />
+    <MESSAGE value="Guards Firebase auth --&gt; redirect login when logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guards Firebase auth --&gt; redirect login when logout" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/platzinger/src/index.html">
@@ -620,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -691,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/conversation/conversation.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -757,10 +801,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/authentication.guard.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/interfaces/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzinger/src/app/components/profile/profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
