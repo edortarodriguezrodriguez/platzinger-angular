@@ -13,7 +13,11 @@ export class HomeComponent implements OnInit {
   query: string;
 
   constructor(private userService: UserService) {
-    this.friends = this.userService.getFriends();
+    this.userService.getUsers().valueChanges().subscribe((data: User[]) => {
+      this.friends = data;
+    }, (error) => {
+      console.log(error);
+    });
   }
 
   ngOnInit() {
