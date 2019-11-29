@@ -4,6 +4,7 @@ import {User} from "../../interfaces/user";
 import {UserService} from "../../services/user.service";
 import {ConversationsService} from "../../services/conversations.service";
 import {AuthenticationService} from "../../services/authentication.service";
+import {extractMessages} from "@angular/compiler/src/i18n/extractor_merger";
 
 @Component({
   selector: 'app-conversation',
@@ -17,6 +18,7 @@ export class ConversationComponent implements OnInit {
   user: User;
   conversationId: string;
   private textMessage: string;
+  private conversation: any[];
 
   constructor(private userService: UserService, private activatedRoot: ActivatedRoute, private conversationService: ConversationsService, private authenticationService: AuthenticationService) {
     this.friendId = this.activatedRoot.snapshot.params['uid'];
@@ -33,7 +35,10 @@ export class ConversationComponent implements OnInit {
         (user: User) => {
           this.user = user;
           const ids = [this.user.uid, this.friendUser.uid].sort();
+
           this.conversationId = ids.join('|');
+
+          this.getConversation();
         }
       ));
   }
@@ -49,7 +54,32 @@ export class ConversationComponent implements OnInit {
       sender: this.user.uid,
       receiver: this.friendUser.uid
     }
-    this.conversationService.createConversation(message).then(() => this.textMessage == '');
+    this.conversationService.createConversation(message).then(() => this.textMessage = '');
   }
 
+
+  private getConversation() {
+    this.conversationService.getConversation(this.conversationId).valueChanges().subscribe((data) => {
+      console.log(data);
+      this.conversation = data;
+      this.conversation.forEach((message) => {
+        if (!message.seen) {
+          message.seen = true;
+          this.conversationService.editConversation(message);
+
+          const audio = new Audio('assets/sound/new_message.m4a');
+          audio.play();
+
+        }
+      })
+    }, (error) => console.log(error));
+  }
+
+  private geUserNickById(uid) {
+    if (this.friendUser.uid === uid) {
+      return this.friendUser.nick;
+    } else {
+      return this.user.nick;
+    }
+  }
 }

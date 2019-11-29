@@ -16,13 +16,18 @@
       </div>
     </div>
     <div class="col-sm-9">
-      <br />
+      <br/>
       <span class="friendName">Amigo 1</span> (online)
-      <hr />
+      <hr/>
       <div class="vh55 overscroll pabo10" id="messageArea">
+        <div class="messageGroup" *ngFor="let message of conversation">
+          <b>{{geUserNickById(message.uid)}}</b> dice : <br/>
+          <span>{{message.text}}</span>
+        </div>
       </div>
       <div class="messageControlsContainer">
-        <textarea [(ngModel)]="textMessage" (keyup.enter)="sendMessage()" class="form-control" cols="30" rows="5" ></textarea>
+        <textarea [(ngModel)]="textMessage" (keyup.enter)="sendMessage()" class="form-control" cols="30"
+                  rows="5"></textarea>
         <div id="messageToolBar">
           <div class="item">
             <img src="assets/img/icons/regular_smile.gif" class="tool">
@@ -32,7 +37,7 @@
             <img src="assets/img/icons/wink_smile.gif" class="tool">
             <i name="caret-down"></i>
           </div>
-          <div class="item" >
+          <div class="item">
             <img src="assets/img/zumbido.png" class="tool">
           </div>
 
