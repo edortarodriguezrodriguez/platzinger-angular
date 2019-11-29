@@ -19,6 +19,7 @@ export class ConversationComponent implements OnInit {
   conversationId: string;
   private textMessage: string;
   private conversation: any[];
+  shake: boolean = false;
 
   constructor(private userService: UserService, private activatedRoot: ActivatedRoute, private conversationService: ConversationsService, private authenticationService: AuthenticationService) {
     this.friendId = this.activatedRoot.snapshot.params['uid'];
@@ -52,7 +53,21 @@ export class ConversationComponent implements OnInit {
       timestamp: Date.now(),
       text: this.textMessage,
       sender: this.user.uid,
-      receiver: this.friendUser.uid
+      receiver: this.friendUser.uid,
+      type: 'text'
+    }
+    this.conversationService.createConversation(message).then(() => this.textMessage = '');
+  }
+
+
+  sendBuzz() {
+    const message = {
+      uid: this.conversationId,
+      timestamp: Date.now(),
+      text: null,
+      sender: this.user.uid,
+      receiver: this.friendUser.uid,
+      type: 'buzz'
     }
     this.conversationService.createConversation(message).then(() => this.textMessage = '');
   }
@@ -63,13 +78,17 @@ export class ConversationComponent implements OnInit {
       console.log(data);
       this.conversation = data;
       this.conversation.forEach((message) => {
+
+
         if (!message.seen) {
           message.seen = true;
           this.conversationService.editConversation(message);
-
-          const audio = new Audio('assets/sound/new_message.m4a');
-          audio.play();
-
+          if (message.type == 'text') {
+            const audio = new Audio('assets/sound/new_message.m4a');
+            audio.play();
+          } else if (message.type == 'buzz') {
+            this.doBuzz();
+          }
         }
       })
     }, (error) => console.log(error));
@@ -81,5 +100,14 @@ export class ConversationComponent implements OnInit {
     } else {
       return this.user.nick;
     }
+  }
+
+  private doBuzz() {
+    const audio = new Audio('assets/sound/zumbido.m4a');
+    audio.play();
+    this.shake = true;
+    window.setTimeout(() => {
+      this.shake = false
+    }, 1000);
   }
 }
