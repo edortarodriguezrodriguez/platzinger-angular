@@ -19,6 +19,7 @@ import {AngularFireStorageModule} from "@angular/fire/storage";
 import {AngularFireDatabaseModule} from "@angular/fire/database";
 import {AuthenticationGuard} from "./services/authentication.guard";
 import {ImageCropperModule} from "ngx-image-cropper";
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -48,6 +49,7 @@ const appRoutes: Routes = [
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
     AngularFireDatabaseModule,
     ImageCropperModule,
+    NgbModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
