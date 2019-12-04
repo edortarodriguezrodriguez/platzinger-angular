@@ -5,6 +5,7 @@ import {UserService} from "../../services/user.service";
 import {ConversationsService} from "../../services/conversations.service";
 import {AuthenticationService} from "../../services/authentication.service";
 import {extractMessages} from "@angular/compiler/src/i18n/extractor_merger";
+import {AngularFireStorage} from "@angular/fire/storage";
 
 @Component({
   selector: 'app-conversation',
@@ -20,8 +21,11 @@ export class ConversationComponent implements OnInit {
   private textMessage: string;
   private conversation: any[];
   shake: boolean = false;
+  private imgSrc: any = '';
+  picture: any;
 
-  constructor(private userService: UserService, private activatedRoot: ActivatedRoute, private conversationService: ConversationsService, private authenticationService: AuthenticationService) {
+
+  constructor(private userService: UserService, private activatedRoot: ActivatedRoute, private conversationService: ConversationsService, private authenticationService: AuthenticationService, private firebaseStorage: AngularFireStorage) {
     this.friendId = this.activatedRoot.snapshot.params['uid'];
 
     this.userService.getUserById(this.friendId).valueChanges().subscribe((data: User) => {
@@ -109,5 +113,59 @@ export class ConversationComponent implements OnInit {
     window.setTimeout(() => {
       this.shake = false
     }, 1000);
+  }
+
+  handleInputChange(event: any) {
+    var file = event.dataTransfer ? event.dataTransfer.files[0] : event.target.files[0];
+    var pattern = /image-*/;
+    var reader = new FileReader();
+    if (!file.type.match(pattern)) {
+      alert('invalid format');
+      return;
+    }
+    reader.onload = this._handleReaderLoaded.bind(this);
+    reader.readAsDataURL(file);
+  }
+
+  _handleReaderLoaded(e) {
+    let reader = e.target;
+    this.imgSrc = reader.result;
+    console.log(this.imgSrc)
+
+    this.sendImage();
+  }
+
+  private sendImage() {
+    if (this.imgSrc) {
+      const currentPictureId = Date.now();
+      const pictures = this.firebaseStorage.ref('pictures/' + currentPictureId + '.jpg').putString(this.imgSrc, 'data_url');
+
+      pictures.then(() => {
+        this.picture = this.firebaseStorage.ref('pictures/' + currentPictureId + '.jpg').getDownloadURL();
+
+        this.picture.subscribe((pictureUrl) => {
+          console.log(pictureUrl);
+
+          const message = {
+            uid: this.conversationId,
+            timestamp: Date.now(),
+            text: null,
+            sender: this.user.uid,
+            receiver: this.friendUser.uid,
+            url: pictureUrl,
+            type: 'image'
+          };
+
+          this.conversationService.createConversation(message).then(() => this.textMessage = '')
+            .then(() => console.log('conversacion creada correctamente'))
+            .catch(() => console.log('error creando conversaciom'));
+
+        }).then(() => console.log('foto en conversacion enviada correctamente')).catch(() => console.log('error subiendo foto'));
+
+      }).catch(()=>{
+        console.log('error obteniendo url. ');
+      });
+
+    }
   }
 }

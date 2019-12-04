@@ -21,8 +21,20 @@
       <hr/>
       <div class="vh55 overscroll pabo10" id="messageArea">
         <div class="messageGroup" *ngFor="let message of conversation">
-          <b>{{geUserNickById(message.uid)}}</b> dice : <br/>
-          <span>{{message.text}}</span>
+          <div *ngIf="!message.type || message.type=='text'">
+            <b>{{geUserNickById(message.uid)}}</b> dice : <br/>
+            <span>{{message.text}}</span>
+          </div>
+
+          <div *ngIf="message.type=='buzz'">
+            <b>{{geUserNickById(message.uid)}}</b> ha enviado un zumbido<br/>
+          </div>
+
+          <div *ngIf="message.type=='image'">
+            <b>{{geUserNickById(message.uid)}}</b> dice : <br/>
+            <img [src]="message.url" alt="imagen" class="img-fluid">
+          </div>
+
         </div>
       </div>
       <div class="messageControlsContainer">
@@ -43,7 +55,7 @@
 
           <a class="btn btn-primary btn-sm marri10" accept="image/*">Enviar</a>
           <label class="custom-file-upload">
-            <input type="file">
+            <input type="file" (change)="handleInputChange($event)">
             <i name="image"></i> Seleccionar Imagen
           </label>
         </div>
