@@ -24,10 +24,10 @@ import {BootstrapModalModule} from "ng2-bootstrap-modal";
 import {RequestComponent} from './modals/request/request.component';
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: HomeComponent, canActivate: [AuthenticationGuard]},
   {path: 'home', component: HomeComponent, canActivate: [AuthenticationGuard]},
   {path: 'login', component: LoginComponent},
-  {path: 'conversation/:uid', component: ConversationComponent},
+  {path: 'conversation/:uid', component: ConversationComponent, canActivate: [AuthenticationGuard]},
   {path: 'profile', component: ProfileComponent, canActivate: [AuthenticationGuard]}
 ];
 
