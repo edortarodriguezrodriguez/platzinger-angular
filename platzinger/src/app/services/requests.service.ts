@@ -6,17 +6,21 @@ import {AngularFireDatabase} from "@angular/fire/database";
 })
 export class RequestsService {
 
-  constructor(private angularFireDatabase: AngularFireDatabase) { }
+  constructor(private angularFireDatabase: AngularFireDatabase) {
+  }
+
   createRequest(request) {
-    const cleanEmail = request.receiver_email.replace('.', ',');
+    const cleanEmail = request.receiver_email.split('.').join(',');
     return this.angularFireDatabase.object('requests/' + cleanEmail + '/' + request.sender).set(request);
   }
+
   setRequestStatus(request, status) {
-    const cleanEmail = request.receiver_email.replace('.', ',');
+    const cleanEmail = request.receiver_email.split('.').join(',');
     return this.angularFireDatabase.object('requests/' + cleanEmail + '/' + request.sender + '/status').set(status);
   }
+
   getRequestsForEmail(email) {
-    const cleanEmail = email.replace('.', ',');
+    const cleanEmail = email.split('.').join(',');
     return this.angularFireDatabase.list('requests/' + cleanEmail);
   }
 }
