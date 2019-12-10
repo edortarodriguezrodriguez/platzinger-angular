@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
   private user: User;
   closeResult: string;
   friendEmail: string;
+  friendMessage: string;
 
 
   constructor(private userService: UserService, private authenticationService: AuthenticationService, private router: Router, private modalService: NgbModal, private requestService: RequestsService) {
@@ -73,6 +74,7 @@ export class HomeComponent implements OnInit {
       timestamp: Date.now(),
       receiver_email: this.friendEmail,
       sender: this.user.uid,
+      friend_message: this.friendMessage,
       status: 'pending'
     }
 
